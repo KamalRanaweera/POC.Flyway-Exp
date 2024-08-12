@@ -120,3 +120,7 @@ ignoreWithNoCheck = true
 [environments.target1]
 url = "jdbc:sqlserver://localhost:1434;databaseName=flyway_dev;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
 displayName = "Flyway Stage"
+
+[environments.target2]
+url = "jdbc:sqlserver://localhost:1434;databaseName=flyway_dev2;encrypt=false;integratedSecurity=true;trustServerCertificate=true"
+displayName = "flyway_dev2"
